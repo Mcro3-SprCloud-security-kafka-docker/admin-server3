@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: mcro3-admin-serverr
+
+  config:
+    import: configserver:http://localhost:9025
+  cloud:
+    config:
+      fail-fast: true
+      username: mcro3-configserver
+      password: mcro3-123
